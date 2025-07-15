@@ -1,0 +1,64 @@
+body {
+    font-family: Helvetica, Arial, Arimo, Liberation Sans, sans-serif;
+    text-transform: uppercase;
+    margin: auto;
+    text-align: center;
+}
+
+.logo {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    max-width: 94%;
+    height: auto;
+}
+
+.social-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 400px;
+    width: 80%;
+    height: 25px;
+    margin-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 25px;
+    background: black;
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.social-link:hover {
+    background-color: white;
+    color: black;
+    box-shadow: inset 0px 0px 0px 2px black;
+}
+
+.social-link.unavailable {
+    background: grey;
+    color: white;
+    box-shadow: inset 0px 0px 0px 0px grey;
+}
+
+
+.link-footnote {
+    margin-left:9px;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+footer {
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    font-size: 12px;
+    text-transform: initial;
+    height: 2.5rem;
+    width: 100%;
+}
