@@ -12,6 +12,10 @@ body {
     height: auto;
 }
 
+a {
+    color:black;
+}
+
 .social-link {
     display: flex;
     align-items: center;
